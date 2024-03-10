@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <>
+    <section>
       <div className="max-w-[1440px] pt-20 mx-5 sm:mx-32">
         <div className="flex flex-col lg:flex-row items-center justify-start h-full">
           <div className="text-left mt-0">
@@ -171,7 +171,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 

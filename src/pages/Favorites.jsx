@@ -14,7 +14,7 @@ const Favorites = () => {
   };
 
   return (
-    <div className="mx-5 sm:mx-32">
+    <section className="mx-5 sm:mx-32">
       {favoriteCars.length > 0 ? (
         <div className="flex flex-col items-center">
           <CarsList cars={favoriteCars} />
@@ -41,7 +41,7 @@ const Favorites = () => {
           </Link>
         </div>
       )}
-    </div>
+    </section>
   );
 };
 

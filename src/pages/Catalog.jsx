@@ -40,7 +40,7 @@ const Catalog = () => {
   };
 
   return (
-    <div className="mx-5 sm:mx-32 flex flex-col items-center">
+    <section className="mx-5 sm:mx-32 flex flex-col items-center">
       <SearchForm />
       {isLoading && <Loader />}
       {filteredCars.length > 0 && <CarsList cars={filteredCars} />}
@@ -48,7 +48,7 @@ const Catalog = () => {
       {amount < 46 && amount >= 12 && !isLoading && (
         <LoadMoreButton onClick={handleLoadMore} />
       )}
-    </div>
+    </section>
   );
 };
 
